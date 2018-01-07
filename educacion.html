@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Educación</title>
+</head>
+<body>
+	<header>
+		<svg width="200px" height="200px" viewBox="0 0 200 200">
+			<image width="200px" height="170px" xlink:href="img/logo.svg" alt="logo"></image>
+		</svg>
+		<h1>Hoja de Vida</h1>
+		<h2>John Sandoval</h2>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educación</a></li>
+			<li><a href="experiencia.html">Experiencia</a></li>
+		</ul>
+	</nav>
+	<section>
+		<h2>Educación</h2>
+		<table border="1", cellpadding="5", cellspacing="0">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culmino?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1996</td>
+					<td>La Villa</td>
+					<td>Lima</td>
+					<td>2002</td>
+				</tr>
+				<tr>
+					<td>2003</td>
+					<td>PRG</td>
+					<td>Lima</td>
+					<td>2007</td>
+				</tr>
+				<tr>
+					<td>2014</td>
+					<td>UNMSM</td>
+					<td>Lima</td>
+					<td>--</td>
+				</tr>
+			</tbody>
+		</table>
+		<section>
+			<h3>Agregar Estudios</h3>
+			<form action="">
+				<fieldset>
+					<p>
+						<label for="año">Año: 
+							<select name="año" id="">
+								<option value="">2017</option>
+								<option value="">2016</option>
+								<option value="">2015</option>
+								<option value="">2014</option>
+							</select>
+						</label>
+					</p>	
+					<p>
+						<label for="institucion">Institución: 
+							<input type="text" required>
+						</label>
+					</p>	
+					<p>
+						<label for="lugar">Lugar: 
+							<textarea name="lugar" id="" cols="30"></textarea>
+						</label>
+					</p>
+					<p>
+						<label for="culmino">¿Culmino? 
+							<input type="radio" name="culmino" value="Si">Si
+							<input type="radio" name="culmino" value="No">No
+						</label>
+					</p>
+					<p>
+						<label for="enviar">
+							<input type="submit" name="enviar" value="Enviar">
+						</label>
+					</p>
+				</fieldset>	
+			</form>
+		</section>
+	</section>
+	<footer>
+		<h2>Informacion de Contacto</h2>
+		<ul>
+			<li><strong>Email: </strong>sandoval@gmail.com</li>
+			<li><strong>Telefono: </strong>01-895-6457</li>
+			<li><strong>Dirección: </strong>167 Urb. Villarica, Lima, Lima, Perú.</li>
+		</ul>
+	</footer>
+</body>
+</html>
